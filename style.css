@@ -37,34 +37,37 @@ html, body{
 }
 
 .navbar_links li{
-    padding: 15px;
+    padding: 0 25px;
     position: relative;
+    list-style: none;
 }
 
 .navbar_links li a{
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: none;
-    list-style: none;
     color: #573838;
     transition: all 0.5s ease;
 }
 
 .navbar_links li a:hover, 
 .navbar_links li a.active{
-    color: #FD0000;
+    color: #A42121;
+    /* color: #E61616; */
+    /* color: #921616; */
+    /* color: #FD0000; */
 }
 
 .navbar_links li a:hover::after, 
 .navbar_links li a.active::after{
     content: "";
-    background-color: #FD0000;
+    /* background-color: #FD0000; */
+    /* background-color: #921616; */
+    /* background-color: #E61616; */
+    background-color: #A42121;
     width: 37%;
-    height: 6px;
+    height: 3px;
     position: absolute;
-    bottom: -5px;
-    left: 17px;
-
-
-
+    bottom: -8px;
+    left: 25px;
 }
