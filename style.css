@@ -16,11 +16,13 @@ html, body{
 
     /* FONT FAMILY PROPERTY FROM GOOGLE FONTS */
     font-family: "Inria Sans", sans-serif;
-
     background-color: #CFCAC9;
-
 }
 
+
+
+
+/* NAVBAR SECTION */
 .navbar{
     display: flex;
     justify-content: center;
@@ -86,6 +88,10 @@ html, body{
     left: 25px;
 }
 
+
+
+
+/* HOMEPAGE SECTION */
 .homepage{
     position: relative;
     padding: 0 71px;
@@ -93,6 +99,10 @@ html, body{
 
 .homepage .homepageimg{
     float: right;
+
+    /* TO MAKE THE HOMEPAGE-IMG RESPNSIVE */
+    /* width: 100%;
+    margin-bottom: 10px; */
     /* padding-right: 71px; */
 }
 
@@ -146,3 +156,75 @@ html, body{
     display: table;
     clear: both;
 }
+
+
+
+
+
+/* FEATUES SECTION */
+.features{
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.features .featurebox{
+    border: 3px solid gainsboro;
+    border-radius: 4px ;
+    box-shadow: 20px 18px 12px #000000;
+    padding: 12px 45px;
+    transition: all 0.4s ease;
+    margin: 11px;
+}
+
+.features .featurebox:hover{
+    box-shadow: 10px 9px 24px #000000;
+}
+
+/* TO MAKE THE IMAGES WITHIN THE FEATUREBOXES RESPONSIVE */
+.features .featurebox img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.features .featurebox h5{
+    border: 3px solid lightcoral;
+    border-radius: 3px;
+    background-color: lightcoral;
+    padding: 6px 6px;
+    text-align: center;
+    margin-top: 0;
+    color: #004B4B;
+    font-size: 15px;
+}
+
+/* TO AVOID REPITION, MAKE USE OF :nth child PROPERTY TO APPLY PROPERTIES TO THE OTHER FEATURE BOXES */
+.features .featurebox:nth-child(2) h5{
+    border: 3px solid lightskyblue;
+    background-color: lightskyblue ;
+}
+
+.features .featurebox:nth-child(3) h5{
+    border: 3px solid lightpink;
+    background-color: lightpink;
+}
+
+.features .featurebox:nth-child(4) h5{
+    border: 3px lightyellow;
+    background-color: lightyellow;
+}
+
+.features .featurebox:nth-child(5) h5{
+    border: 3px solid lightsalmon;
+    background-color: lightsalmon;
+}
+
+
+
+
+
+
+
