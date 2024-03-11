@@ -105,12 +105,12 @@ html, body{
     padding-top: 200px;
 }
 
-#h5{
+.homepage #text-left #h5{
     color: #B45200;
     font-size: 33px;
 }
 
-#h2{
+.homepage #text-left #h2{
     /* color: #5EA427; */
     /* color: #550701; */
     /* color: #B30F0F; */
@@ -118,10 +118,25 @@ html, body{
     font-size: 55px;
 }
 
-#h22{
+.homepage #text-left #h22{
     color: #FF0000;
     font-size: 63px;
     word-spacing: 12px;
+}
+
+.homepage #text-left #p1{
+    font-size: 22px;
+}
+
+.homepage #text-left #shopnowbtn{
+    border: none;
+    background: transparent;
+    background-image: url('images/shopnowbtn.png');
+    padding: 20px 60px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: #096B6B;
+
 }
 
 
