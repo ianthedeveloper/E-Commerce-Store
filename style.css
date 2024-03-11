@@ -112,7 +112,7 @@ html, body{
     top: 0;
     left: 0;
     padding-left: 71px;
-    padding-top: 200px;
+    padding-top: 130px;
 }
 
 .homepage #text-left #h5{
@@ -141,7 +141,7 @@ html, body{
 .homepage #text-left #shopnowbtn{
     border: none;
     background: transparent;
-    background-image: url('images/shopnowbtn.png');
+    background-image: url('images/button images/shopnowbtn.png');
     padding: 20px 60px;
     font-size: 18px;
     /* font-weight: bold; */
