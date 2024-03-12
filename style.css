@@ -226,5 +226,74 @@ html, body{
 
 
 
+/* FEATURED PRODUCUTS */
+.featured-products{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.featured-products #all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-products #main-product{
+    width: 22%;
+    padding: 10px 10px;
+    margin: 15px 15px;
+    border: 3px solid gainsboro;
+    box-shadow: 16px 16px 12px #000000;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.featured-products #main-product:hover{
+    box-shadow: 20px 20px 8px #000000;
+}
+
+.featured-products #main-product img{
+    width: 100%;
+    margin-bottom: 39px;
+}
+
+.featured-products #main-product #product-description{
+    text-align: start;
+    line-height: 3px;
+}
+
+.featured-products #main-product #product-description h4{
+    color: #096B6B;
+    margin-bottom: 15px;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.featured-products #main-product #five-stars{
+    color: darkgoldenrod;
+}
+
+.featured-products #main-product h3{
+    margin-top: 13px;
+}
+
+.featured-products #main-product #product-basket{
+    background-color: #096B6B;
+    padding: 4px 4px;
+    border: 3px solid #096B6B;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+
+
 
 
