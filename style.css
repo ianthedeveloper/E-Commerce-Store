@@ -249,7 +249,7 @@ html, body{
 }
 
 .featured-products #main-product{
-    width: 20%;
+    width: 23%;
     height: 30%;
     padding: 10px 10px;
     margin: 15px 15px;
@@ -307,5 +307,37 @@ html, body{
 
 
 
+
+/* EXPLORE SECTION */
+.explore{
+    background-image: url('images/banners/explore4.png');
+    text-align: center;
+}
+
+.explore #wordings{
+    padding: 100px;
+}
+
+.explore #wordings h4{
+    color:cadetblue;
+    font-size: 35px;
+}
+
+.explore #wordings h1{
+    color: #A42121;
+    font-size: 65px;
+}
+
+.explore #wordings .explorebtn{
+    background-color: #FFFFFF;
+    padding:10px 20px;
+    font-size: 18px;
+    border:none;
+    transition: all 0.4s ease;
+}
+
+.explore #wordings .explorebtn:hover{
+    background-color: #096B6B;
+}
 
 
