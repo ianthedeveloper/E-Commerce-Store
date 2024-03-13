@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: pointer;
 
 }
 
@@ -21,8 +20,32 @@ html, body{
 
 
 
+/* GLOBAL CLASSES */
 
-/* HEADER SECTION */
+.section-margin{
+    padding: 25px 71px;
+}
+
+.text-arrangement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.normal-button{
+    border: none;
+    border-radius: 4px 4px;
+    outline: none;
+    background-color: #096B6B;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+
+/* NAVBAR SECTION */
 .navbar{
     color: #CFCAC9;
     display: flex;
@@ -33,9 +56,11 @@ html, body{
     margin-bottom: 60px;
     background-color: #CFCAC9;
     box-shadow: 13px 15px 20pX #000000;
+    /* width: 100%; */
+    height: 13vh;
 
     /* TO MAKE SURE THE NAV BAR REMAINS IN PLACE REGARLESS OF SCROLLING ACTIVITY */
-    position: fixed;
+    /* position: fixed; */
     position: sticky;
     top: 0;
     left: 0;
@@ -61,16 +86,14 @@ html, body{
     font-weight: 900;
     text-decoration: none;
     color: #573838;
+    color: #000000;
     transition: all 0.5s ease;
 }
 
 /* THE (.active) class IS USED TO ENSURE THE HOME NAV LINK IS ALWAYS HIGHLIGHTED IN THE SPECIFIED COLOUR WHENEVER THE PAGE IS LOADED*/
 .navbar_links li a:hover, 
 .navbar_links li a.active{
-    color: #A42121;
-    /* color: #E61616; */
-    /* color: #921616; */
-    /* color: #FD0000; */
+    color: #096B6B;
 }
 
 
@@ -82,7 +105,8 @@ html, body{
     /* background-color: #FD0000; */
     /* background-color: #921616; */
     /* background-color: #E61616; */
-    background-color: #A42121;
+    /* background-color: #A42121; */
+    background-color: #096B6B;
     width: 37%;
     height: 3px;
     position: absolute;
@@ -105,7 +129,6 @@ html, body{
     /* TO MAKE THE HOMEPAGE-IMG RESPNSIVE */
     /* width: 100%;
     margin-bottom: 10px; */
-    /* padding-right: 71px; */
 }
 
 .homepage #text-left{
@@ -123,9 +146,6 @@ html, body{
 }
 
 .homepage #text-left #h2{
-    /* color: #5EA427; */
-    /* color: #550701; */
-    /* color: #B30F0F; */
     color: #096B6B;
     font-size: 55px;
 }
@@ -138,6 +158,7 @@ html, body{
 
 .homepage #text-left #p1{
     font-size: 22px;
+    color: #B45200;
 }
 
 .homepage #text-left #shopnowbtn{
@@ -148,7 +169,6 @@ html, body{
     font-size: 18px;
     /* font-weight: bold; */
     color: #096B6B;
-
 }
 
 
@@ -223,6 +243,12 @@ html, body{
     border: 3px solid lightsalmon;
     background-color: lightsalmon;
 }
+
+.features .featurebox:nth-child(6) h5{
+    border: 3px solid lightcyan;
+    background-color: lightcyan;
+}
+
 
 
 
@@ -314,6 +340,9 @@ html, body{
 .explore{
     background-image: url('images/banners/explore4.png');
     text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .explore #wordings{
