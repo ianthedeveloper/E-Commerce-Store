@@ -53,7 +53,6 @@ html, body{
     align-items: center;
     justify-content: space-between;
     padding: 0 71px;
-    margin-bottom: 60px;
     background-color: #CFCAC9;
     box-shadow: 13px 15px 20pX #000000;
     /* width: 100%; */
@@ -120,7 +119,7 @@ html, body{
 /* HOMEPAGE SECTION */
 .homepage{
     position: relative;
-    padding: 0 71px;
+    padding: 50px 71px;
 }
 
 .homepage .homepageimg{
@@ -185,11 +184,11 @@ html, body{
 
 /* FEATUES SECTION */
 .features{
-    padding: 50px 50px;
+    padding: 50px 71px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-between;
 }
 
@@ -200,6 +199,8 @@ html, body{
     padding: 12px 45px;
     transition: all 0.4s ease;
     margin: 11px;
+
+    /* flex: 0 0 calc(33.33% - 16.6666px); */
 }
 
 .features .featurebox:hover{
@@ -257,7 +258,7 @@ html, body{
 /* FEATURED PRODUCUTS */
 .featured-products{
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px 71px;
 }
 
 .featured-products h1{
@@ -338,11 +339,16 @@ html, body{
 
 /* EXPLORE SECTION */
 .explore{
-    background-image: url('images/banners/explore4.png');
-    text-align: center;
+    background-image: url('images/banners/explore111.png');
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .explore #wordings{
@@ -352,11 +358,11 @@ html, body{
 .explore #wordings h4{
     /* color:cadetblue; */
     color: #FFFFFF;
+    /* color: #096B6B; */
     font-size: 35px;
 }
 
 .explore #wordings h1{
-    /* color: #A42121; */
     color: #FFFFFF;
     font-size: 65px;
 }
@@ -376,5 +382,7 @@ html, body{
 .explore #wordings .explorebtn:hover{
     background-color: #096B6B;
 }
+
+
 
 
