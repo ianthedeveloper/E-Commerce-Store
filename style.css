@@ -16,21 +16,23 @@ html, body{
 
     /* FONT FAMILY PROPERTY FROM GOOGLE FONTS */
     font-family: "Inria Sans", sans-serif;
-    background-color: #CFCAC9;
+    /* background-color: #CFCAC9; */
 }
 
 
 
 
-/* NAVBAR SECTION */
+/* HEADER SECTION */
 .navbar{
+    color: #CFCAC9;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 0 71px;
+    margin-bottom: 60px;
     background-color: #CFCAC9;
-    /* text-shadow: 13px 15px 20pX #000000; */
+    box-shadow: 13px 15px 20pX #000000;
 
     /* TO MAKE SURE THE NAV BAR REMAINS IN PLACE REGARLESS OF SCROLLING ACTIVITY */
     position: fixed;
