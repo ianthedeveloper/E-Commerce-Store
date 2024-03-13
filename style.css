@@ -319,13 +319,19 @@ html, body{
 }
 
 .explore #wordings h4{
-    color:cadetblue;
+    /* color:cadetblue; */
+    color: #FFFFFF;
     font-size: 35px;
 }
 
 .explore #wordings h1{
-    color: #A42121;
+    /* color: #A42121; */
+    color: #FFFFFF;
     font-size: 65px;
+}
+
+.explore #wordings h1 #rednotice{
+    color:#FF0000;
 }
 
 .explore #wordings .explorebtn{
