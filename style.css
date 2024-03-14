@@ -47,15 +47,14 @@ html, body{
 
 /* NAVBAR SECTION */
 .navbar{
-    color: #CFCAC9;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 0 71px;
     background-color: #CFCAC9;
+    background-color: #FFFFFF;
     box-shadow: 13px 15px 20pX #000000;
-    /* width: 100%; */
     height: 13vh;
 
     /* TO MAKE SURE THE NAV BAR REMAINS IN PLACE REGARLESS OF SCROLLING ACTIVITY */
@@ -142,17 +141,23 @@ html, body{
 .homepage #text-left #h5{
     color: #B45200;
     font-size: 33px;
+    line-height: 31px;
+
 }
 
 .homepage #text-left #h2{
     color: #096B6B;
     font-size: 55px;
+    line-height: 46px;
+
 }
 
 .homepage #text-left #h22{
     color: #FF0000;
     font-size: 63px;
     word-spacing: 12px;
+    line-height: 51px;
+
 }
 
 .homepage #text-left #p1{
@@ -386,92 +391,119 @@ html, body{
 
 
 
-/* BANNERS */
-#banners{
+/* BANNER1 */
+#banner1{
     display: flex;
-    justify-content: center;
-    /* justify-content: space-between; */
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
     padding: 50px 50px;
 }
 
-#banners .mainbanner{
-    text-align: start;
+#banner1 .main-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
     background-image: url('./images/banners/buyonegetonefree1.1.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 136px 141px;
-    margin: 12px;
+    height: 55vh;
+    width: 785px;
+    padding: 35px;
+    margin: 16px;
 }
 
-#banners .mainbanner span{
-    color: #FFFFFF;
-    margin-bottom: 0;
-    font-size: 26px;
-}
-
-
-#banners .mainbanner h1{
-    font-size: 55px;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-#banners .mainbanner h5{
+#banner1 .main-banner span{
     font-size: 20px;
-    margin-top: 8px;
+    color: #000000;
 }
 
-#banners .mainbanner button{
+#banner1 .main-banner h1{
+    font-size: 54px;
+    margin-top:11px;
+    margin-bottom: 11px;
+}
+
+#banner1 .main-banner h5{
+    color: #000000;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+#banner1 .main-banner button{
     background-color: transparent;
-    border: 3px solid #DCDCDC;
+    border: 3px solid gainsboro;
     border-radius: 4px 4px;
-    padding: 12px 16px;
-    font-weight: 700;
-    font-size: 18px;
+    padding: 16px 16px;
+    transition: all 0.4s ease;
+    font-weight: 600px;
 }
 
-#banners .banner2{
-    text-align: start;
+#banner1 .main-banner:hover button{
+    background-color: #096B6B;
+    border: none;
+}
+
+
+
+#banner1 .main-banner:nth-child(2){
     background-image: url('./images/banners/upcomingseason2.2.png');
+}
+
+#banner1 .main-banner:nth-child(2) span{
+    color: #FFFFFF;
+}
+
+#banner1 .main-banner:nth-child(2) h1{
+    color: #FFFFFF;
+}
+
+#banner1 .main-banner:nth-child(2) h5{
+    color: #FFFFFF;
+}
+
+#banner1 .main-banner:nth-child(2) button{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+/* BANNER2 */
+#banner2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 50px 50px;
+}
+
+#banner2 .main-banner2{
+    width: 500px;
+    height: 300px;
+    background-image: url('./images/banners/banner2.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 136px 141px;
+    padding: 26px;
+    margin: 23px;
+    
 }
 
-
-#banners .banner2 span{
+#banner2 .main-banner2 h1{
     color: #FFFFFF;
-    margin-bottom: 0;
-    font-size: 26px;
+    font-size: 45px;
+    margin: 0;
 }
 
-#banners .banner2 h1{
-    color: #FFFFFF;
-    font-size: 55px;
-    margin-top: 10px;
-    margin-bottom: 0;
+#banner2 .main-banner2 h5{
+    color: #FF0000;
+    font-size: 23px;
 }
-
-#banners .banner2 h5{
-    color: #FFFFFF;
-    font-size: 20px;
-    margin-top: 8px;
-}
-
-
-#banners .banner2 button{
-    background-color: transparent;
-    border: 3px solid #DCDCDC;
-    border-radius: 4px;
-    padding: 12px 16px;
-    font-weight: 700;
-    font-size: 18px;
-    color: #FFFFFF;
-    outline: none;
-}
-
 
