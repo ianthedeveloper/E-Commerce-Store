@@ -258,7 +258,7 @@ html, body{
 /* FEATURED PRODUCUTS */
 .featured-products{
     text-align: center;
-    padding: 50px 71px;
+    padding: 50px 50px;
 }
 
 .featured-products h1{
@@ -281,7 +281,7 @@ html, body{
     width: 23%;
     height: 30%;
     padding: 10px 10px;
-    margin: 15px 15px;
+    margin: 25px 25px;
     border: 3px solid gainsboro;
     border-radius: 10px 10px;
     box-shadow: 16px 16px 12px #000000;
@@ -390,23 +390,19 @@ html, body{
 #banners{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 71px;
+    padding: 50px 50px;
 }
 
 #banners .mainbanner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    text-align: center;
+    text-align: start;
     background-image: url('./images/banners/buyonegetonefree1.1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 71px 84px;
+    padding: 136px 141px;
     margin: 12px;
 }
 
@@ -430,7 +426,7 @@ html, body{
 
 #banners .mainbanner button{
     background-color: transparent;
-    border: 3px solid #gainsboro;
+    border: 3px solid #DCDCDC;
     border-radius: 4px 4px;
     padding: 12px 16px;
     font-weight: 700;
@@ -438,16 +434,12 @@ html, body{
 }
 
 #banners .banner2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    text-align: center;
+    text-align: start;
     background-image: url('./images/banners/upcomingseason2.2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 71px 84px;
+    padding: 136px 141px;
 }
 
 
@@ -473,8 +465,8 @@ html, body{
 
 #banners .banner2 button{
     background-color: transparent;
-    border: 3px solid #gainsboro;
-    border-radius: 4px 4px;
+    border: 3px solid #DCDCDC;
+    border-radius: 4px;
     padding: 12px 16px;
     font-weight: 700;
     font-size: 18px;
