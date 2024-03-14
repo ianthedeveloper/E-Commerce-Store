@@ -386,3 +386,100 @@ html, body{
 
 
 
+/* BANNERS */
+#banners{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 71px;
+}
+
+#banners .mainbanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    background-image: url('./images/banners/buyonegetonefree1.1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 71px 84px;
+    margin: 12px;
+}
+
+#banners .mainbanner span{
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+
+#banners .mainbanner h1{
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#banners .mainbanner h5{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+#banners .mainbanner button{
+    background-color: transparent;
+    border: 3px solid #gainsboro;
+    border-radius: 4px 4px;
+    padding: 12px 16px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#banners .banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    background-image: url('./images/banners/upcomingseason2.2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 71px 84px;
+}
+
+
+#banners .banner2 span{
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+#banners .banner2 h1{
+    color: #FFFFFF;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#banners .banner2 h5{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+
+#banners .banner2 button{
+    background-color: transparent;
+    border: 3px solid #gainsboro;
+    border-radius: 4px 4px;
+    padding: 12px 16px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+
