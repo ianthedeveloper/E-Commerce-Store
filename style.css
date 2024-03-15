@@ -564,3 +564,18 @@ html, body{
     color: #FFFFFF;
     font-weight: 650;
 }
+
+
+
+
+
+
+/* FOOTER SECTION */
+#footer .business-details p span{
+    font-weight: 600;
+}
+
+#footer .social-media i{
+    padding: 2px;
+}
+
