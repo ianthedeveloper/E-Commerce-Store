@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html, body{
@@ -15,7 +14,6 @@ html, body{
 
     /* FONT FAMILY PROPERTY FROM GOOGLE FONTS */
     font-family: "Inria Sans", sans-serif;
-    /* background-color: #CFCAC9; */
 }
 
 
@@ -171,8 +169,8 @@ html, body{
     background-image: url('images/button images/shopnowbtn.png');
     padding: 20px 60px;
     font-size: 18px;
-    /* font-weight: bold; */
     color: #096B6B;
+    cursor: pointer;
 }
 
 
@@ -188,71 +186,67 @@ html, body{
 
 
 /* FEATUES SECTION */
-.features{
-    padding: 50px 71px;
+#features{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     justify-content: space-between;
+    padding: 50px 71px;
 }
-
-.features .featurebox{
+#features .featurebox{
     border: 3px solid gainsboro;
-    border-radius: 4px ;
-    box-shadow: 20px 18px 12px #000000;
-    padding: 12px 45px;
-    transition: all 0.4s ease;
-    margin: 11px;
-
-    /* flex: 0 0 calc(33.33% - 16.6666px); */
-}
-
-.features .featurebox:hover{
-    box-shadow: 10px 9px 24px #000000;
-}
-
-/* TO MAKE THE IMAGES WITHIN THE FEATUREBOXES RESPONSIVE */
-.features .featurebox img{
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-.features .featurebox h5{
-    border: 3px solid lightcoral;
-    border-radius: 3px;
-    background-color: lightcoral;
-    padding: 6px 6px;
+    border-radius: 4px;
     text-align: center;
+    padding: 16px 22px;
+    margin: 12px;
+    box-shadow: 14px 12px 10px #000000;
+    transition: all 0.4s ease;
+
+    /* APPLIED SO THAT EACH 'LABEL' CAN BE ENCLOSED WITHIN ITS BORDER BOX PERFECTLY */
+    display: inline-block;
+
+    /* APPLIED TO ENSURE THAT ALL OF THE BOXES ALIGN WITH EACH OTHER AND ARE OF THE SAME SIZE REGARDLESS OF THE DISPLAY SIZE */
+    width: 180px;
+    height: 200px;
+}
+
+#features .featurebox:hover{
+    box-shadow: 7px 6px 15px;
+}
+
+
+#features .featurebox img{
+    margin-top: 8px;
+}
+
+#features .featurebox h4{
     margin-top: 0;
-    color: #004B4B;
-    font-size: 15px;
-}
-
-/* TO AVOID REPITION, MAKE USE OF :nth child PROPERTY TO APPLY PROPERTIES TO THE OTHER FEATURE BOXES */
-.features .featurebox:nth-child(2) h5{
-    border: 3px solid lightskyblue;
-    background-color: lightskyblue ;
-}
-
-.features .featurebox:nth-child(3) h5{
-    border: 3px solid lightpink;
     background-color: lightpink;
+    border: none;
+    border-radius: 5px 5px;
+    color: #096B6B;
+    padding: 6px 8px;
 }
 
-.features .featurebox:nth-child(4) h5{
-    border: 3px lightyellow;
-    background-color: lightyellow;
+#features .featurebox:nth-child(2) h4{
+    background-color: lightblue;
 }
 
-.features .featurebox:nth-child(5) h5{
-    border: 3px solid lightsalmon;
+#features .featurebox:nth-child(3) h4{
+    background-color: lightgreen;
+}
+
+#features .featurebox:nth-child(4) h4{
+    background-color: lightslategray;
+}
+
+#features .featurebox:nth-child(5) h4{
+    background-color: lightcoral;
+}
+
+#features .featurebox:nth-child(6) h4{
     background-color: lightsalmon;
-}
-
-.features .featurebox:nth-child(6) h5{
-    border: 3px solid lightcyan;
-    background-color: lightcyan;
 }
 
 
