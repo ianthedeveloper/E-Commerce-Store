@@ -193,7 +193,7 @@ html, body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     justify-content: space-between;
 }
 
@@ -507,3 +507,11 @@ html, body{
     font-size: 23px;
 }
 
+
+#banner2 .main-banner2:nth-child(2){
+    background-image: url('./images/banners/banner2.1.png');
+}
+
+#banner2 .main-banner2:nth-child(3){
+    background-image: url('./images/banners/banner2.3.png');
+}
