@@ -571,6 +571,19 @@ html, body{
 
 
 /* FOOTER SECTION */
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 71px;
+}
+
+#footer .contact{
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
 #footer .business-details p span{
     font-weight: 600;
 }
@@ -579,3 +592,69 @@ html, body{
     padding: 2px;
 }
 
+
+
+
+#footer .credentials{
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+#footer .credentials h3{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#footer .credentials li{
+    list-style: none;
+    padding: 4px;
+}
+
+#footer .credentials li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+#footer .install-app .apps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .install-app .apps .online-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid darkgray;
+    border-radius: 12px;
+    padding: 6px 9px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 60px;
+}
+
+#footer .install-app .apps .online-app .download-store{
+    margin-right: 10px;
+}
+
+#footer .install-app .apps .online-app .text p{
+    margin: 0;
+}
+
+#footer .install-app .apps .online-app .text h3{
+    margin: 0;
+}
+
+
+#footer .install-app .payment-gateways img{
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+}
