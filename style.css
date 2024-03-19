@@ -544,10 +544,9 @@ html, body{
 }
 
 #newsletter .signup-prompt input{
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 12px;
-    padding-right: 100px;
+    height: 3.125rem;
+    padding: 0 1.25em;
+    width: 100%;
     font-size: 18px;
     border: none;
     border-top-left-radius: 4px;
@@ -556,6 +555,7 @@ html, body{
 
 #newsletter .signup-prompt button{
     padding: 8px 10px;
+    white-space: nowrap;
     border: none;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -590,9 +590,8 @@ html, body{
 
 #footer .social-media i{
     padding: 2px;
+    
 }
-
-
 
 
 #footer .credentials{
@@ -601,20 +600,23 @@ html, body{
 }
 
 #footer .credentials h3{
-    text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 26px;
 }
 
-#footer .credentials li{
-    list-style: none;
-    padding: 4px;
-}
-
-#footer .credentials li a{
+#footer .credentials a{
     text-decoration: none;
     color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 13px;
 }
 
+#footer .credentials a:hover, #footer .social-media i:hover{
+    color: #096B6B;
+}
 
 
 
@@ -657,4 +659,9 @@ html, body{
     padding: 3px;
     width: 40px;
     height: 40px;
+}
+
+
+#myfooter p{
+    text-align: center;
 }
