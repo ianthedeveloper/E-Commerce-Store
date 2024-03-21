@@ -582,7 +582,7 @@ html, body{
 
 #footer .contact{
     margin-right: 14px;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
 }
 #footer .business-details p span{
     font-weight: 600;
@@ -596,7 +596,7 @@ html, body{
 
 #footer .credentials{
     margin-right: 14px;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
 }
 
 #footer .credentials h3{
@@ -661,7 +661,7 @@ html, body{
     height: 40px;
 }
 
-
-#myfooter p{
+#myfooter .footer-bottom{
     text-align: center;
 }
+
