@@ -108,6 +108,32 @@ html, body{
     left: 25px;
 }
 
+.navbar_links .x{
+    display: none;
+    font-size: 24px;
+    color: #000000;
+}
+
+.navbar #mobile{
+    display: none;
+}
+
+.navbar #mobile a .order-cart{
+    color: #000000;
+    font-size: 24px;
+}
+
+.navbar #mobile i{
+    color: #000000;
+    font-size: 24px;
+    margin-left: 11px;
+}
+
+
+
+
+
+
 
 
 
@@ -666,3 +692,55 @@ html, body{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* @media queries */
+@media (max-width:799px) {
+    .navbar_links{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 260px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -260px;
+        background-color: aliceblue;
+        padding: 81px 0 0 0;
+    }
+
+    .navbar_links.active{
+        right: 0;
+    }
+
+    .navbar_links li{
+        margin-bottom: 37px;
+    }
+
+    .navbar_links li .order-cart{
+        display: none;
+    }
+
+    .navbar #mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar_links .x{
+        display: initial;
+        position: absolute;
+        top: 11px;
+        left: 28px;
+    }
+}
