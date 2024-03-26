@@ -52,8 +52,7 @@ html, body{
     padding: 0 71px;
     background-color: #CFCAC9;
     background-color: #FFFFFF;
-    box-shadow: 13px 15px 20pX #000000;
-
+    box-shadow: 100px 0px 0px #000000;
     /* TO MAKE SURE THE NAV BAR REMAINS IN PLACE REGARLESS OF SCROLLING ACTIVITY */
     position: sticky;
     top: 0;
@@ -141,6 +140,13 @@ html, body{
 .homepage{
     position: relative;
     padding: 50px 71px;
+    background-image: url('./images/logos/homepage111.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow: 22px 0px 4px #000000;
+
 }
 
 .homepage .homepageimg{
@@ -705,6 +711,9 @@ html, body{
 
 /* @media queries */
 @media (max-width:799px) {
+
+    /* MAKING THE NAVBAR RESPONSIVE */
+
     .navbar_links{
         display: flex;
         flex-direction: column;
@@ -743,5 +752,17 @@ html, body{
         position: absolute;
         top: 11px;
         left: 28px;
+    }
+
+
+    /* MAKING HOMEPAGE SECTION RESPONSIVE */
+
+    .homepage {
+        height: 66vh;
+        padding: 0 71px;
+    }
+
+    .homepageimg{
+        position: top 26px right 26px;
     }
 }
