@@ -139,11 +139,11 @@ html, body{
 /* HOMEPAGE SECTION */
 .homepage{
     padding: 50px 71px;
-    background-image: url('./images/logos/homepage117.png');
+    background-image: url('./images/logos/homepage119.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
 
 }
 
