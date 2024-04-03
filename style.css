@@ -138,13 +138,12 @@ html, body{
 
 /* HOMEPAGE SECTION */
 .homepage{
-    position: relative;
     padding: 50px 71px;
     background-image: url('./images/logos/homepage111.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     box-shadow: 22px 0px 4px #000000;
 
 }
