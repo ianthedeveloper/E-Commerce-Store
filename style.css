@@ -144,42 +144,30 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    box-shadow: 22px 0px 4px #000000;
 
 }
 
-.homepage .homepageimg{
-    float: right;
-
-    /* TO MAKE THE HOMEPAGE-IMG RESPNSIVE */
-    /* width: 100%;
-    margin-bottom: 10px; */
-}
-
-.homepage #text-left{
+.homepage #text{
     line-height: 25px;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding-left: 71px;
     padding-top: 130px;
 }
 
-.homepage #text-left #h5{
+.homepage #text #h5{
     color: #B45200;
-    font-size: 33px;
+    font-size: 38px;
     line-height: 31px;
 
 }
 
-.homepage #text-left #h2{
+.homepage #text #h2{
     color: #096B6B;
     font-size: 55px;
     line-height: 46px;
 
 }
 
-.homepage #text-left #h22{
+.homepage #text #h22{
     color: #FF0000;
     font-size: 63px;
     word-spacing: 12px;
@@ -187,12 +175,13 @@ html, body{
 
 }
 
-.homepage #text-left #p1{
-    font-size: 22px;
+.homepage #text #p1{
+    font-size: 42px;
     color: #B45200;
+    line-height: 63px;
 }
 
-.homepage #text-left #shopnowbtn{
+.homepage #text #shopnowbtn{
     border: none;
     background: transparent;
     background-image: url('images/button images/shopnowbtn.png');
