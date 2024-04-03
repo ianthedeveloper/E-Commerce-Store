@@ -139,7 +139,7 @@ html, body{
 /* HOMEPAGE SECTION */
 .homepage{
     padding: 50px 71px;
-    background-image: url('./images/logos/homepage115.png');
+    background-image: url('./images/logos/homepage117.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +178,9 @@ html, body{
 .homepage #text #p1{
     font-size: 42px;
     color: #B45200;
+    /* color: #096B6B; */
     line-height: 63px;
+    font-weight: 900;
 }
 
 .homepage #text #shopnowbtn{
